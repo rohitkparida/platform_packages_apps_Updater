@@ -144,4 +144,8 @@
     <string name="new_updates_channel_title">New updates</string>
     <string name="ongoing_channel_title">Ongoing downloads</string>
     <string name="update_failed_channel_title">Update failed</string>
+
+    <!-- New Headers info -->
+    <string name="header_updates_no_update">You\'re up to date</string>
+    <string name="header_updates_new_build">There\'s a new update</string>
 </resources>
