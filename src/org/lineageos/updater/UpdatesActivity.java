@@ -261,11 +261,11 @@ public class UpdatesActivity extends UpdatesListActivity {
             sortedUpdates.sort((u1, u2) -> Long.compare(u2.getTimestamp(), u1.getTimestamp()));
             for (UpdateInfo update : sortedUpdates) {
                 updateIds.add(update.getDownloadId());
+		((TextView) findViewById(R.id.header_update_release_date)).setText("February 29, 2019");
             }
             ((TextView) findViewById(R.id.header_update_status)).setText(R.string.header_updates_new_build);
             findViewById(R.id.header_update_release_date).setVisibility(View.VISIBLE);
             /* Example till this is working */
-            ((TextView) findViewById(R.id.header_update_release_date)).setText("February 29, 2019");
             mAdapter.setData(updateIds);
             mAdapter.notifyDataSetChanged();
         }
