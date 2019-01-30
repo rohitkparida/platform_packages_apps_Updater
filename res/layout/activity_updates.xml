@@ -69,7 +69,7 @@
                     android:letterSpacing="0.08"
                     android:textColor="?android:attr/textColorPrimary"
                     android:layout_below="@id/header_version"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
                 <TextView
                     android:id="@+id/header_update_release_date"
@@ -81,7 +81,7 @@
                     android:letterSpacing="0.08"
                     android:layout_below="@id/header_update_status"
                     android:textColor="?android:attr/textColorPrimary"
-                    android:textSize="16sp" />
+                    android:textSize="14sp" />
 
             </RelativeLayout>
 
